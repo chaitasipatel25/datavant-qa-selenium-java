@@ -19,7 +19,7 @@ The source code may easily be changed to work with any other web browser by inst
 
 **How can we make this framework better suitable for enterprise product?**
 
-    1. Better Parameterization: For now I am using TestNg DataProvider functionality to run same test with different data. We can make more reliable and maintainable parameterization solution to handle data from CSV or JSON files or using Dynamic values created runtime (Depend on Project and related data)
+    1. Better Parameterization: For now I am using TestNg DataProvider functionality to run same test with different data. We can make more reliable and maintainable parameterization solution to handle data from CSV or JSON files or using Dynamic values created during runtime.
     2. Configuration Management: Currently config data has been passed via config.properties file. We should introduce environment variable to handle such config as we will be running this tests via different platforms (CI/CD, local machines etc..)
     3. Ability to run test in parallel and on multiple servers
     4. Test Analysis, metrics and report Generation
